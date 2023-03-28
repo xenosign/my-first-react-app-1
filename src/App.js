@@ -15,12 +15,27 @@ import Condition from './components/Condition';
 import Emoji from './components/Emoji';
 import ClassState from './components/ClassState';
 import StateAndVariable from './components/StateAndVariable';
-import LikeBtn from './components/LikeBtn';
+import StateProblem from './components/StateProblem';
+import List from './components/List';
+import PropsHeader from './components/PropsHeader';
+import MultiProps from './components/MultiProps';
+import ClassProps from './components/ClassProps';
+import ItemList from './components/ItemList';
+import CustomList from './components/CustomList';
+import CustomObj from './components/CustomObj';
+import ExampleChangObj from './components/ExampleChangObj';
 
 function App() {
+  const nameArr = ['뽀로로', '루피', '크롱이'];
+  const pororoObj = {
+    name: '뽀로로',
+    age: '5',
+    nickName: '사고뭉치',
+  }
+
   return (
     <div className="App">
-      <LikeBtn />
+      <ExampleChangObj />
     </div>
   );
 }
