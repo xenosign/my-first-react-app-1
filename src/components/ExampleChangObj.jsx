@@ -1,4 +1,3 @@
-import React from 'react';
 import ChangeObj from './ChangeObj';
 
 export default function ExampleChangObj() {
@@ -16,13 +15,13 @@ export default function ExampleChangObj() {
     {
       name: '크롱이',
       age: 5,
-      nickName: '장난 꾸러기'
-    }
-  ]
+      nickName: '장난 꾸러기',
+    },
+  ];
 
   return (
     <div>
       <ChangeObj objArr={pororoArr} />
     </div>
-  )
+  );
 }

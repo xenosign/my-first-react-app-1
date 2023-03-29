@@ -24,18 +24,18 @@ import ItemList from './components/ItemList';
 import CustomList from './components/CustomList';
 import CustomObj from './components/CustomObj';
 import ExampleChangObj from './components/ExampleChangObj';
+import TesRef from './components/TesRef';
+import ChangeFocus from './components/ChangeFocus';
+import RefDomControl from './components/RefDomControl';
+import ExampleRefDom from './components/ExampleRefDom';
+import RandomQuiz from './components/RandomQuiz';
+import Comparing from './components/Comparing';
+import ReactFragment from './components/ReactFragment';
 
 function App() {
-  const nameArr = ['뽀로로', '루피', '크롱이'];
-  const pororoObj = {
-    name: '뽀로로',
-    age: '5',
-    nickName: '사고뭉치',
-  }
-
   return (
     <div className="App">
-      <ExampleChangObj />
+      <ReactFragment />
     </div>
   );
 }
