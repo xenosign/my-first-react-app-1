@@ -2,7 +2,7 @@ import React from 'react';
 import { useState } from 'react';
 
 export default function State2() {
-  const [strState, setStrState] = useState('init');
+  let [strState, setStrState] = useState('init');
 
   function changeState() {
     strState += '-';
@@ -21,5 +21,5 @@ export default function State2() {
       <br />
       <span>{strState}</span>
     </div>
-  )
+  );
 }

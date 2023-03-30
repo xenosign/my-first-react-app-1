@@ -12,11 +12,17 @@ export default function StateAndVariable() {
 
   return (
     <div>
-      <h1>{state} / {variable}</h1>
-      <button onClick={() => {
-        setState((cur) => cur + 1);
-        plusVariable();
-      }}>+1</button>
+      <h1>
+        {state} / {variable}
+      </h1>
+      <button
+        onClick={() => {
+          setState((cur) => cur + 1);
+          plusVariable();
+        }}
+      >
+        +1
+      </button>
     </div>
-  )
+  );
 }
